@@ -16,6 +16,9 @@ python -m Luke-Pretraining-Dice.ner_model.train_model --model-file=pretraining_m
 
 You can change the parameters based on your need.
 
+### Evaluation
+If the do-eval parameter is not changed in the command for training the model, it performs the evaluation automatically after finishing the training. The parameter do-eval is set to True by default.
+
 ## LUKE-MRC with Dice Loss
 The goal here is to evaluate BERT-MRC model for NER task with the entity representation model LUKE. Dice loss used by the original work is unchanged here. In order to evaluate LUKE model with dice loss, I modified the BERT-MRC model codes available in the repository https://github.com/ShannonAI/mrc-for-flat-nested-ner. The implementations of dice loss at the repository https://github.com/ShannonAI/dice_loss_for_NLP and LUKE pretraining model at the repository https://github.com/studio-ousia/luke were utilized here.
 
