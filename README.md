@@ -35,3 +35,11 @@ CUDA_VISIBLE_DEVICES=0 python3 ${REPO_PATH}/tasks/mrc_ner/evaluate.py --gpus="1"
 
 You need to make necessary changes based on the path on your system and availability of GPU.
 
+## Evaluate Other Models
+In order to evaluate the models: BERT-MRC, BERT-MRC with Dice Loss, and LUKE model for Entity Representation, I use their github implementations available at below links:
+
+1. https://github.com/ShannonAI/mrc-for-flat-nested-ner
+
+2. https://github.com/ShannonAI/dice_loss_for_NLP
+
+3. https://github.com/studio-ousia/luke
