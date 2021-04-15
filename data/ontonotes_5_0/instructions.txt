@@ -1,0 +1,6 @@
+
+Since OntoNotes-5.0 is a licensed dataset, I cannot put this dataset here directly. 
+
+You need to get the dataset following the guidelines from the corresponding website. 
+
+The link to the website is https://catalog.ldc.upenn.edu/LDC2013T19

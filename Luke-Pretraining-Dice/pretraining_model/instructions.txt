@@ -1,0 +1,7 @@
+
+Download pretrained LUKE model from here:
+
+LUKE-500K(Base): https://drive.google.com/file/d/17JvBfXTMuXHX_00yq6kXUDB6OJStfSK_/view?usp=sharing
+
+LUKE-500K(Large): https://drive.google.com/file/d/1S7smSBELcZWV7-slfrb94BKcSCCoxGfL/view?usp=sharing
+
